@@ -6,6 +6,11 @@ public class Input implements Serializable {
 	
 	String Goal;
 	String Step;
+	
+	public Input(String Goal,String Step) {
+		this.Goal=Goal;
+		this.Step=Step;
+	}
 	public String getGoal() {
 		return Goal;
 	}
